@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to bottom, #212529, #fff);
+  /*background-image: url('path/to/your/image.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: ; */
+}
+
+
+.fw-500{
+  font-weight: 500;
+}
+
+.header h1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  color: white;
+}
+.header p{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.login-form label{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+  margin-top: 20px;
+  text-align: left !important;
+}
+
+.login-form input{
+  background: white;
+  border: 1px solid #BCBCBC;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.btn{
+  background-color: #212529 !important;
+  border-radius: 8px !important;
+  border: none !important;
+  font-size: 14px !important;
+  padding: 8px 18px !important;
+  margin-top: 20px !important;
+} 
+
+.btn:hover{
+  background-color: #555458 !important;
+}
+
+
+/*baru tambah*/
+
+.container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  height: 100vh;
+  padding: 20px;
+}
+
+.header h1 {
+  font-size: 48px !important;
+  margin-bottom: 25px !important;
+  white-space: nowrap;
+  display: inline-block;
+  text-align: center !important;
+}
+
+.col-md-7 {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
